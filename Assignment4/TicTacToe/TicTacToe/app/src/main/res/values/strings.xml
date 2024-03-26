@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="TicTacToe"><font color="#000000">Tic Tac Toe</font></string>
+    <string name="x">x\n</string>
+    <string name="o">o\n</string>
+    <string name="t">T</string>
+    <string name="ic">ic</string>
+    <string name="a">a</string>
+    <string name="c">c</string>
+    <string name="oe">oe</string>
+    <string name="button">button</string>
+</resources>

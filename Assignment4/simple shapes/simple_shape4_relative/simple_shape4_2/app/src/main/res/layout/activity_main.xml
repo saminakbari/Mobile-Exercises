@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:paddingStart="40dp"
+    android:paddingTop="40dp"
+    android:paddingEnd="40dp"
+    android:paddingBottom="40dp"
+    tools:context=".MainActivity">
+
+    <View
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerInParent="true"
+        android:background="@color/black"
+        android:id="@+id/central_shape"
+        android:layout_margin="20dp"/>
+    <View
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_above="@+id/central_shape"
+        android:background="@color/black"
+        android:layout_centerHorizontal="true"/>
+
+    <View
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/central_shape"
+        android:background="@color/black"
+        android:layout_centerHorizontal="true"/>
+
+    <View
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_toStartOf="@+id/central_shape"
+        android:background="@color/black"
+        android:layout_centerVertical="true"/>
+
+    <View
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_toEndOf="@+id/central_shape"
+        android:background="@color/black"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>

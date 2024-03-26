@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">register_relative</string>
+    <string name="register">Register</string>
+    <string name="username_hint"><font size="12">Enter your username.</font></string>
+    <string name="password_hint"><font size="12">Enter your password.</font></string>
+    <string name="re_password_hint"><font size="12">Re enter your password.</font></string>
+    <string name="username">username:</string>
+    <string name="password">password:</string>
+    <string name="confirmation">confirmation:</string>
+    <string name="sign_up">Sign Up</string>
+</resources>
