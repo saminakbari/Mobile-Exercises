@@ -46,7 +46,7 @@ public class RegisterLoginActivity extends AppCompatActivity {
 
         button2.setOnClickListener(v -> {
             String message = checkLogin(unameET.getText().toString(),
-                    passwordET.getText().toString());
+                    passwordET2.getText().toString());
             if (message.equals("You logged in successfully!")) {
                 Intent intent = new Intent(RegisterLoginActivity.this,
                         ChoiceActivity.class);
@@ -69,12 +69,6 @@ public class RegisterLoginActivity extends AppCompatActivity {
         return "You signed up successfully!";
     }
 
-    public void onClick(View view) {
-        String message = getPassword(unameET.getText().toString());
-        if (unameET.getText().toString().equals("")) message = "Enter your username!";
-        Toast.makeText(getBaseContext(), message, Toast.LENGTH_LONG).show();
-    }
-
     String checkLogin(String username, String password) {
         if (username.equals("")) return "Enter your username!";
         if (password.equals("")) return "Enter your password!";
@@ -84,14 +78,6 @@ public class RegisterLoginActivity extends AppCompatActivity {
                     return "You logged in successfully!";
                 return "Password is not correct!";
             }
-        }
-        return "Username does not exist!";
-    }
-
-    String getPassword(String username) {
-        for (User user : users) {
-            if (user.getUsername().equals(username))
-                return "Your password is: " + user.getPassword();
         }
         return "Username does not exist!";
     }
