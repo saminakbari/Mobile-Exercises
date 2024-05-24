@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_brown"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="40dp"
+                android:gravity="center"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/t"
+                    android:textColor="@color/black"
+                    android:textSize="60sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_title2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ic"
+                    android:textColor="@color/white"
+                    android:textSize="60sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_title3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:text="@string/t"
+                    android:textColor="@color/black"
+                    android:textSize="60sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_title4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/a"
+                    android:textColor="@color/white"
+                    android:textSize="60sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_title5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="15dp"
+                    android:text="@string/c"
+                    android:textColor="@color/white"
+                    android:textSize="60sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_title6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/t"
+                    android:textColor="@color/black"
+                    android:textSize="60sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_tile7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/oe"
+                    android:textColor="@color/white"
+                    android:textSize="60sp"
+                    android:textStyle="bold" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:gravity="center"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:id="@+id/tv_x"
+                    android:layout_width="160dp"
+                    android:layout_height="145dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/cream"
+                    android:gravity="center"
+                    android:text="@string/x"
+                    android:textColor="@color/dark_brown"
+                    android:textSize="100sp" />
+
+                <TextView
+                    android:id="@+id/tv_o"
+                    android:layout_width="160dp"
+                    android:layout_height="145dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/invisible"
+                    android:gravity="center"
+                    android:text="@string/o"
+                    android:textColor="@color/dark_brown"
+                    android:textSize="100sp" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center">
+
+                    <TableRow android:gravity="center">
+
+                        <Button
+                            android:id="@+id/btn_00"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:backgroundTint="@color/invisible"
+                            android:contentDescription="@string/button"
+                            android:textSize="70sp"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="10dp"
+                            android:layout_height="100dp"
+                            android:background="@color/dark_brown" />
+
+                        <Button
+                            android:id="@+id/btn_01"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:backgroundTint="@color/invisible"
+                            android:contentDescription="@string/button"
+                            android:textSize="70sp"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="10dp"
+                            android:layout_height="100dp"
+                            android:background="@color/dark_brown" />
+
+                        <Button
+                            android:id="@+id/btn_02"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:backgroundTint="@color/invisible"
+                            android:contentDescription="@string/button"
+                            android:textSize="70sp"
+                            android:textStyle="bold" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <View
+                            android:layout_width="100dp"
+                            android:layout_height="10dp"
+                            android:layout_span="6"
+                            android:background="@color/dark_brown" />
+
+                    </TableRow>
+
+                    <TableRow android:gravity="center">
+
+                        <Button
+                            android:id="@+id/btn_10"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:backgroundTint="@color/invisible"
+                            android:contentDescription="@string/button"
+                            android:textSize="70sp"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="10dp"
+                            android:layout_height="100dp"
+                            android:background="@color/dark_brown" />
+
+                        <Button
+                            android:id="@+id/btn_11"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:backgroundTint="@color/invisible"
+                            android:contentDescription="@string/button"
+                            android:textSize="70sp"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="10dp"
+                            android:layout_height="100dp"
+                            android:background="@color/dark_brown" />
+
+                        <Button
+                            android:id="@+id/btn_12"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:backgroundTint="@color/invisible"
+                            android:contentDescription="@string/button"
+                            android:textSize="70sp"
+                            android:textStyle="bold" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <View
+                            android:layout_width="100dp"
+                            android:layout_height="10dp"
+                            android:layout_span="6"
+                            android:background="@color/dark_brown" />
+
+                    </TableRow>
+
+                    <TableRow android:gravity="center">
+
+                        <Button
+                            android:id="@+id/btn_20"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:backgroundTint="@color/invisible"
+                            android:contentDescription="@string/button"
+                            android:textSize="70sp"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="10dp"
+                            android:layout_height="100dp"
+                            android:background="@color/dark_brown" />
+
+                        <Button
+                            android:id="@+id/btn_21"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:backgroundTint="@color/invisible"
+                            android:contentDescription="@string/button"
+                            android:textSize="70sp"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="10dp"
+                            android:layout_height="100dp"
+                            android:background="@color/dark_brown" />
+
+                        <Button
+                            android:id="@+id/btn_22"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:backgroundTint="@color/invisible"
+                            android:contentDescription="@string/button"
+                            android:textSize="70sp"
+                            android:textStyle="bold" />
+
+                    </TableRow>
+
+                </TableLayout>
+            </TableRow>
+
+            <TableRow
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent">
+
+                <TextView
+                    android:id="@+id/tv_probability"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="30dp"
+                    android:background="@color/dark_brown"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="@color/cream" />
+            </TableRow>
+        </TableLayout>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#c8d8c1b4"
+        android:gravity="center"
+        android:textColor="@color/dark_brown"
+        android:textSize="100sp" />
+
+</RelativeLayout>
+

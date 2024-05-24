@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="TicTacToe">Tic Tac Toe</string>
+    <string name="x">x\n</string>
+    <string name="o">o\n</string>
+    <string name="t">T</string>
+    <string name="ic">ic</string>
+    <string name="a">a</string>
+    <string name="c">c</string>
+    <string name="oe">oe</string>
+    <string name="button">button</string>
+    <string name="register">Register</string>
+    <string name="username_hint"><font size="12">Enter your username.</font></string>
+    <string name="password_hint"><font size="12">Enter your password.</font></string>
+    <string name="re_password_hint"><font size="12">Re enter your password.</font></string>
+    <string name="username">username:</string>
+    <string name="password">password:</string>
+    <string name="confirmation">confirmation:</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="mode">Mode:</string>
+    <string name="choose_your_shape">Choose your shape:</string>
+    <string name="choose_the_mode">Choose the mode:</string>
+    <string name="_x">x</string>
+    <string name="_o">o</string>
+    <string name="cpu">CPU</string>
+    <string name="human">Human</string>
+    <string name="start">Play</string>
+</resources>
